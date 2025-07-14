@@ -1,40 +1,37 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.imagem {
+#fotoizy {
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
-.apresenta {
+#apresentacaoizy{
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-    .apresenta .nome {
+    #apresentacaoizy #nomeizy{
         text-align: left;
     }
 
-.formacao {
+#formacaoizy {
     gap: 30px;
     text-align: justify;
 }
 
-.objetivo {
+#objetivoizy{
     text-align: justify;
 }
 
-h1, h2 {
-    font-family: Raleway;
-}
 
-.apresenta, .formacao, .objetivo, .experiencia, .habilidade, .idioma {
+#apresentacaoizy, #formacaoizy, #objetivoizy, #experienciaizy, #habilidadeizy, #idiomaizy {
     border-bottom: 4px solid #800020;
     padding: 10px 0;
 }
 
-.curriculo {
+#curriculoizy{
     max-width: 800px;
     margin: 20px auto;
     border: 2px solid #800020;
@@ -42,6 +39,6 @@ h1, h2 {
     padding: 20px;
 }
 
-body {
+#izybody {
     background-color: #f7daea;
 }
