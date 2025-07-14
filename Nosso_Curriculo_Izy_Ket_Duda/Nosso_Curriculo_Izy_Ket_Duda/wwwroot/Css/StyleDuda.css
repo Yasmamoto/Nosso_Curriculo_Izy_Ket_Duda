@@ -1,5 +1,5 @@
 ﻿
-.curriculo {
+.curriculoDuda {
     background-color: rgb(204, 232, 232);
     color: rgb(0, 38, 38);
     border-radius: 30px;
@@ -12,13 +12,13 @@
     margin: 40px auto;
 }
 
-    .curriculo header {
+    .curriculoDuda header {
         margin-top: 20px;
         text-align: center;
         color: rgb(0, 38, 38);
     }
 
-.curriculo img {
+.curriculoDuda img {
     display: flex;
     align-items: center;
 }
