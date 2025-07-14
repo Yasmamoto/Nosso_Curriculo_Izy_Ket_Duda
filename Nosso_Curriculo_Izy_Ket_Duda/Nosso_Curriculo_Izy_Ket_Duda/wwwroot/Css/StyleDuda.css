@@ -26,3 +26,11 @@
 .objetivoDuda {
     margin-top: 5%
 }
+
+.curriculoDuda .linkDuda {
+    margin-right: 10px;
+    color: rgb(0, 38, 38);
+}
+    .curriculoDuda .linkDuda:hover {
+        color: rgb(52, 186, 186);
+    }
