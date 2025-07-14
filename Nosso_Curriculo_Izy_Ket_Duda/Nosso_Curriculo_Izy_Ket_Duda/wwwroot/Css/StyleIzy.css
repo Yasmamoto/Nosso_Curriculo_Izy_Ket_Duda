@@ -1,2 +1,47 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.apresenta {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+    .apresenta .nome {
+        text-align: left;
+    }
+
+.formacao {
+    gap: 30px;
+    text-align: justify;
+}
+
+.objetivo {
+    text-align: justify;
+}
+
+h1, h2 {
+    font-family: Raleway;
+}
+
+.apresenta, .formacao, .objetivo, .experiencia, .habilidade, .idioma {
+    border-bottom: 4px solid #800020;
+    padding: 10px 0;
+}
+
+.curriculo {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #800020;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+body {
+    background-color: #f7daea;
 }
